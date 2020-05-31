@@ -1,6 +1,6 @@
 {% set name = "cpplint" %}
-{% set version = "1.4.4" %}
-{% set sha256 = "05f879aab5a04307e916e32afb547567d8a44149ddc2f91bf846ce2650ce6d7d" %}
+{% set version = "1.5.0" %}
+{% set sha256 = "20c440f6fe612180e79ee370b85f56a66b177fd122ad7e2cb911527857dae4ad" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - cpplint = cpplint:main
 
@@ -39,13 +39,12 @@ about:
     and pull requests, this fork aims to be (somewhat) more open to add fixes to
     cpplint to enable fixes, when those fixes make cpplint usable in wider
     contexts.
-  home: 'https://github.com/cpplint/cpplint'
-  dev_url: 'https://github.com/cpplint/cpplint'
-  license: 'BSD-3-Clause'
-  license_family: 'BSD'
+  home: https://github.com/cpplint/cpplint
+  dev_url: https://github.com/cpplint/cpplint
+  license: BSD-3-Clause
+  license_family: BSD
   license_file: LICENSE
-  summary:
-    A publicly maintained version of Google's static analysis tool for C/C++ code.
+  summary: A publicly maintained version of Google's static analysis tool for C/C++ code.
 
 extra:
   recipe-maintainers:
