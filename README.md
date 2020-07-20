@@ -5,7 +5,7 @@ Home: https://github.com/cpplint/cpplint
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A publicly maintained version of Google's static analysis tool for C/C++ code.
 
