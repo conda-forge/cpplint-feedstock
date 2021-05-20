@@ -22,7 +22,7 @@ requirements:
     - python =2.7|>=3.6
     - pip
     - setuptools
-    - pytest-runner
+    - pytest-runner =5.2
   run:
     - python =2.7|>=3.6
 
