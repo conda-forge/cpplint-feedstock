@@ -1,6 +1,6 @@
 {% set name = "cpplint" %}
-{% set version = "1.6.0" %}
-{% set sha256 = "ddc50661b62103376675d6e4bcaa85745fa523343c3d93a1f774685005f9afb3" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "8bbba15797079b82f733a17b48f9da0c06d328cdaf14be12d37a0a5782d7be1a" %}
 
 package:
   name: {{ name|lower }}
